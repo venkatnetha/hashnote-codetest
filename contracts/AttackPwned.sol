@@ -1,7 +1,7 @@
 pragma solidity ^0.8.13;
 import "hardhat/console.sol";
 
-/** In public blockchain like ethereum , you can hide anything in the state variables by declaring the variable as private.
+/** In public blockchain like ethereum , you can NOT hide anything in the state variables by declaring the variable as private.
     All the variables private, public, are visible on the blockchain and can be accessed if we know the storgae location of the 
     smart contract.
 
